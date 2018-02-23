@@ -1,0 +1,18 @@
+.MessageHeaderIcon{
+  background-color: transparent;
+  border: none;
+  color: #0e1a35;
+}
+
+.MessageHeaderIcon:before{
+  font-family: FontAwesome;
+  content: "\f0e0";
+  font-size: 2rem;
+}
+
+.MessageHeaderIcon:hover{
+  -moz-transition: all .75s ease-out;
+  -o-transition: all .75s ease-out;
+  -webkit-transition: all .75s ease-out;
+  color: #5584ff;
+}

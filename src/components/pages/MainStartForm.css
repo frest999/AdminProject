@@ -1,0 +1,14 @@
+.MainLogSection{
+  background: url(../../img/start-theme.png) no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 50px;
+  padding-bottom: 0;
+
+}
+
+@media (max-width: 480px) {
+  .MainLogSection{
+    padding: 20px 0;
+  }
+}

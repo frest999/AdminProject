@@ -1,0 +1,87 @@
+.BrandInput{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #d4d9e3;
+  padding: 15px 0 15px 60px;
+  width: 450px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 870px){
+  .BrandInput{
+    width: 340px;
+  }
+}
+
+@media (max-width: 710px){
+  .BrandInput{
+    width: 240px;
+  }
+}
+
+@media (max-width: 560px){
+  .BrandInput{
+    width: 140px;
+    font-size: 1rem;
+  }
+  .LogFormsTitle{
+    font-size: 2rem!important;
+  }
+  .UsernameIcon:before, .PasswordIcon:before {
+    font-size: 1.5rem!important;
+  }
+
+}
+@media (max-width: 380px){
+  .LogFormsTitle{
+    font-size: 1.7rem!important;
+  }
+}
+
+
+
+.BrandInput:hover{
+  border-bottom: 1px solid #5384ff;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+}
+
+.BrandInputBlock{
+  display: flex;
+  flex-direction: column;
+}
+
+.LogFormsTitle{
+  font-size: 2.8125rem;
+  color: #8492af;
+  margin-bottom: 60px;
+}
+
+.FormsTitleStyle{
+  color: #5384ff;
+}
+
+.UsernameIcon:before, .PasswordIcon:before {
+  font-family: FontAwesome;
+  font-size: 2rem;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  color: #5384ff;
+  margin-left: 10px;
+}
+
+.UsernameIcon:before{
+  content: "\f2c0";
+}
+.PasswordIcon:before{
+  content: "\f023";
+}
+.UsernameIcon, .PasswordIcon{
+  position: relative;
+  margin-bottom: 30px;
+}
+.PasswordIcon{
+  margin-bottom: 60px;
+}

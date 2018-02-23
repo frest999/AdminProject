@@ -1,0 +1,50 @@
+.Box {
+  background-color: #fff;
+  border: 1px solid #d4d9e3;
+  display: inline-block;
+}
+
+.Box--withPadding{
+  padding: 30px 35px;
+}
+
+.BoxHeader h2{
+  font: 700 2.25rem 'Roboto', sans-serif;
+  color: #8492af;
+}
+
+.BoxHeader{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.BoxCircleChart{
+  width: 400px;
+  max-width: 100%;
+}
+
+.BoxGraphChart{
+  width: 600px;
+  max-width: 100%;
+}
+.BoxPosition{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+@media (max-width: 1320px){
+  .BoxPosition{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.ActiveBox{
+  height: 484px;
+  width: 480px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,23 @@
+.BrandSelect{
+  min-width: 150px;
+  height: 50px;
+  border-radius: 24px;
+  border: 1px solid rgba(132, 146, 175, 0.3);
+  background-color: transparent;
+  background: url('../../img/arrow.png') no-repeat  90% center;
+  padding: 0 20px;
+  outline: none;
+  appearance: none;
+  font-size: .875rem;
+  font-weight: 700;
+  color: #0e1a35;
+  cursor: pointer;
+
+}
+
+.BrandSelect:hover{
+  -moz-transition: all .75s ease-out;
+  -o-transition: all .75s ease-out;
+  -webkit-transition: all .75s ease-out;
+  border: 1px solid #5584ff;
+}

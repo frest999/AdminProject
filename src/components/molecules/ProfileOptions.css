@@ -1,0 +1,52 @@
+.ProfileOptionsBtn:before{
+  font-family: FontAwesome;
+  content: "\f0d7";
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.ProfileOptionsBtn{
+  background-color: transparent;
+  border: none;
+  color: #0e1a35;
+  height: 90%;
+}
+
+.ProfileOptionsBtn:hover{
+  color: #5584ff;
+}
+
+.ProfileMenu{
+  position: absolute;
+  top: 90px;
+  right: 40px;
+  background-color: #eaf4eb;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.ProfileMenu li{
+  padding: 25px 20px;
+  border-bottom: 1px solid #bdc7be;
+  cursor: pointer;
+  color: #0d172e;
+  font-size: 1rem;
+}
+
+.ProfileMenu li:hover{
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  -webkit-transition: all .5s ease-out;
+  background-color: #cfd9d0;
+}
+
+.ProfileMenu li:last-child{
+  border-bottom: none;
+}
+
+
+.signOutBtn{
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+}

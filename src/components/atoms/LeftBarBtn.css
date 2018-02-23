@@ -1,0 +1,19 @@
+.LeftBarBtn:before {
+  font-family: FontAwesome;
+  content: '\f0d9';
+  margin-right: 10px;
+  font-size: 1.7rem;
+  align-self: flex-start;
+  color: #5584ff;
+}
+
+.LeftBarBtn:after{
+  font-family: FontAwesome;
+  content: '\f0c9';
+  color: #000;
+  font-size: 2rem;
+}
+
+.aaa{
+
+}

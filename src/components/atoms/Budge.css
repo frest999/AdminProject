@@ -1,0 +1,38 @@
+.HeaderBadgeBtn:before{
+  font-family: FontAwesome;
+  content: "\f0f3";
+  font-size: 1.5rem;
+}
+
+.HeaderBadgeBtn{
+  background-color: transparent;
+  border: none;
+  color: #0e1a35;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+.BudgeBlock{
+  position: relative;
+  display: flex;
+}
+
+.HeaderBadgeBtn:hover{
+  -moz-transition: all .75s ease-out;
+  -o-transition: all .75s ease-out;
+  -webkit-transition: all .75s ease-out;
+  color: #5584ff;
+}
+
+.NotificationItem{
+  background-color: #5584ff;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  color: #fff;
+  position: absolute;
+  top: 2px;
+  left: 35px;
+  text-align: center;
+  padding: 1px;
+  padding-top: 5px;
+}

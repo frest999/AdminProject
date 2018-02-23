@@ -1,0 +1,73 @@
+.brand-btn{
+  background-color: #5584ff;
+  border: none;
+  align-self: center;
+  margin-right: 60px;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-size: 1.125rem;
+}
+
+.brand-btn-header:before{
+  font-family: FontAwesome;
+  content: "\f067";
+  margin-right: 15px;
+  font-size: 1rem;
+  color: #aac2ff;
+}
+
+.brand-btn:hover{
+  -moz-transition: all .75s ease-out;
+  -o-transition: all .75s ease-out;
+  -webkit-transition: all .75s ease-out;
+  background-color: #0d172e;
+}
+
+
+.EnterBtnBlock{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.enter-btn{
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+  position: relative;
+  margin-right: 0;
+}
+
+.enter-btn:after{
+  font-family: FontAwesome;
+  content: "\f105";
+  font-size: 1rem;
+  color: #fff;
+  position: absolute;
+  right: 50px;
+  top: 30%;
+}
+
+@media (max-width: 870px){
+  .enter-btn{
+    width: 250px;
+  }
+}
+
+@media (max-width: 560px){
+  .enter-btn{
+    width: 200px;
+  }
+}
+
+@media (max-width: 420px){
+  .enter-btn{
+    width: 150px;
+    font-size: 1rem;
+  }
+  .enter-btn:after{
+    display: none;
+  }
+}

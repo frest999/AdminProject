@@ -1,0 +1,32 @@
+.StatisticsHeader{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.HeaderWithSelects select:nth-child(1){
+  margin-right: 30px;
+}
+
+.SubActiveBox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 80px 60px;
+  border-bottom: 1px solid #ccc;
+}
+
+.SubActiveBox:last-child{
+  border-bottom: none;
+}
+
+.NumberSaleText{
+  font: 700 2.25rem "Roboto", sans-serif;
+  color: #8492af;
+}
+
+.SaleText{
+  font: 300 1.25rem "Roboto", sans-serif;
+  color: #8492af;
+  text-align: center;
+}
