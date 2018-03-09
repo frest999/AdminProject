@@ -1,0 +1,38 @@
+.BoxControlBtn{
+  border: 1px solid #d4d9e3;
+  border-radius: 50%;
+  background-color: transparent;
+  width: 45px;
+  height: 45px;
+  margin-left: 10px;
+  color: #d4d9e3;
+}
+
+.BoxControlIcon:before{
+  font-family: FontAwesome;
+  font-size: 1rem;
+}
+
+.BoxDeleteBtn:before{
+  content: "\f014";
+}
+
+.BoxDeleteBtn:hover{
+  -moz-transition: all .75s ease-out;
+  -o-transition: all .75s ease-out;
+  -webkit-transition: all .75s ease-out;
+  border: 1px solid #f83c7b;
+  color: #f83c7b;
+}
+
+.BoxEditBtn:before{
+  content: "\f040";
+}
+
+.BoxEditBtn:hover{
+  -moz-transition: all .75s ease-out;
+  -o-transition: all .75s ease-out;
+  -webkit-transition: all .75s ease-out;
+  border: 1px solid #5384ff;
+  color: #5384ff;
+}

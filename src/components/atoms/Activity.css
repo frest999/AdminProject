@@ -1,0 +1,46 @@
+.ActivityBlock{
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 24px 30px;
+  padding-bottom: 45px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.ActivityBlock:after{
+  content: "";
+  height: 70px;
+  width: 1px;
+  position: absolute;
+  bottom: -25px;
+  left: 49px;
+  background-color: #dadee7;
+}
+.ActivityBlock:last-child:after{
+  display: none;
+}
+.ActivityUserName{
+  font: 700 .7rem 'Roboto', sans-serif;
+  color: #0d172e;
+  margin-bottom: 5px;
+}
+
+.ActivityAction, .ActivityTime{
+  color: #8492af;
+  font-weight: normal;
+  margin: 0 5px;
+}
+
+.ActivityTime:before{
+  font-family: FontAwesome;
+  content: "\f017";
+  font-size: 1rem;
+  color: #8492af;
+  margin-right: 5px;
+}
+
+.ActivityTime{
+  font-size: .75rem;
+}
+

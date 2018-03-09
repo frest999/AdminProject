@@ -1,0 +1,54 @@
+.Calendar{
+  height: 800px;
+}
+
+.rbc-month-view{
+  background-color: #fff;
+  border: 1px solid #e4e4e4;
+}
+
+.rbc-off-range-bg{
+  background-color: rgba(218, 218, 218, 0.38) !important;
+  opacity: 0.5;
+}
+
+.rbc-event{
+  background-color: #f6f7fa!important;
+  padding: 10px!important;
+  border-radius: 0!important;
+  border-left: 5px solid #5384ff;
+  color: #0d172e!important;
+}
+
+.rbc-selected{
+  border-left: 5px solid #f83c7b;
+}
+
+.rbc-date-cell{
+  padding: 20px!important;
+  text-align: left!important;
+}
+
+.rbc-month-header{
+  padding: 10px 0;
+}
+
+.rbc-header{
+  border:none!important;
+}
+
+.rbc-header span{
+  font: bold 1rem 'Roboto', sans-serif;
+}
+
+.rbc-month-row{
+  border-top: 1px solid #e4e4e4;
+}
+
+.Calendar:before{
+  display: none;
+}
+
+.rbc-btn-group button:nth-child(5){
+  display: none;
+}

@@ -1,0 +1,31 @@
+.WorkflowInfoBlock{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.WorkflowTitle{
+  font: 700 1.875rem 'Roboto', sans-serif;
+  color: #0e1a35;
+  margin-bottom: 40px;
+
+}
+
+.CountTextTask{
+  color: #8492af;
+  margin-left: 5px;
+}
+
+.TitleBlock{
+  position: relative;
+}
+
+.TitleBlock:before{
+  font-family: FontAwesome;
+  content: "\f105";
+  font-size: 2rem;
+  position: absolute;
+  right: 0;
+  color: #8492af;
+}
+

@@ -1,11 +1,12 @@
 import React from 'react';
 import Box from '../atoms/Box';
 import ReactHighcharts from 'react-highcharts';
-import './../atoms/Select.css';
 import "../pages/GeneralStyles.css";
+import Select from "../atoms/Select/Select";
 
 //config
 import pieChart from "../../config/pieChart.config";
+
 
 class SalesChartComponent extends React.Component{
   constructor(props){
@@ -126,17 +127,16 @@ class SalesChartComponent extends React.Component{
   };
 
   render(){
+    const periodsSales = ['Last year', 'Last month', 'Last week'];
     return(
         <Box boxWidth={"Box Box--withPadding BoxCircleChart margin-bottom-30"}>
           <div className="BoxHeader">
             <h2>Your Sales</h2>
-            <select onChange={this.handleChange} className="BrandSelect">
-              {
-                this.props.data && this.props.data.map((item, index) => {
-                  return <option key={index} value={item}>{item}</option>
-                })
-              }
-            </select>
+            <Select
+                onChange={this.handleChange}
+                data={periodsSales}
+                selectBlockClass="SelectLabel SelectBlock SelectBlockPeriod"
+                selectClass="Select Select-Period"/>
           </div>
           <ReactHighcharts config={pieChart} ref={(chart) => {
             this.salesChart = chart;

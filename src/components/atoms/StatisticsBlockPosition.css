@@ -4,8 +4,16 @@
   flex-wrap: wrap;
 }
 
-.HeaderWithSelects select:nth-child(1){
-  margin-right: 30px;
+.HeaderWithSelects{
+  display: flex;
+  justify-content: space-between;
+  width: 420px;
+  max-width: 100%;
+}
+
+
+.HeaderWithSelects select:last-child{
+  margin-right: 0;
 }
 
 .SubActiveBox{

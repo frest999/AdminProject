@@ -1,16 +1,22 @@
 import React from 'react';
+import MainComponent from "./DND/DragNDrop";
 
 
-import './GeneralStyles.css';
 
-class Settings extends React.Component {
-  render() {
-    return (
+class Settings extends React.Component{
+  render(){
+
+    return(
         <div>
-          <h1>Settings</h1>
+        <h2>Settings</h2>
+          <MainComponent/>
         </div>
-    );
+    )
   }
 }
 
 export default Settings;
+
+
+
+

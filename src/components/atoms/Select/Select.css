@@ -1,0 +1,55 @@
+.Select{
+  height: 50px;
+  border-radius: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(132, 146, 175, 0.3);
+  background-color: transparent;
+  background: url('../../../img/arrow.png') no-repeat  90% center;
+  padding: 0 20px;
+  outline: none;
+  appearance: none;
+  font: 700 .875rem 'Roboto', sans-serif;
+  color: #0e1a35;
+  cursor: pointer;
+}
+
+.Select:hover{
+  -moz-transition: all .75s ease-out;
+  -o-transition: all .75s ease-out;
+  -webkit-transition: all .75s ease-out;
+  border: 1px solid #5584ff;
+}
+
+.SelectLabel{
+  position: relative;
+}
+
+.SelectBlock:before{
+  position: absolute;
+  font: 700 .875rem FontAwesome, sans-serif;
+  left: 20px;
+  color: #8492af;
+  top: 17px;
+}
+
+.SelectBlockSort:before{
+  content: "Sort:";
+}
+
+.SelectBlockPeriod:before{
+  content: "Period:";
+}
+
+.SelectBlockType:before{
+  content: "Type:";
+}
+
+.Select-Sort{
+  width: 200px;
+  padding-left: 60px;
+}
+
+.Select-Period{
+  width: 200px;
+  padding-left: 80px;
+}

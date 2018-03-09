@@ -1,0 +1,71 @@
+.MessageBlock{
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 24px 30px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  border-bottom: 1px solid #d4d9e3;
+}
+
+.MessageBlock:last-child{
+  border-bottom: none;
+}
+.MessageBlock:last-child:hover{
+  border-bottom: none;
+}
+.MessageBlock:hover{
+  -moz-transition: all .75s ease-out;
+  -o-transition: all .75s ease-out;
+  -webkit-transition: all .75s ease-out;
+  border-bottom: 1px solid #5384ff;
+}
+
+.NotReadMessage{
+  background-color: #f4f5f8;
+}
+
+.MessageUserName, .MessageText{
+  font: 700 .75rem 'Roboto', sans-serif;
+  color: #0e1a35;
+  margin-bottom: 10px;
+}
+
+.MessageTime{
+ color: #8492af;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+.MessageText{
+  font-weight: normal;
+}
+
+.MessageBtnIcon:before{
+  font-family: FontAwesome;
+  font-size: 1rem;
+}
+
+.MessageBtnIcon{
+  color: #8492af;
+  padding: 0;
+  margin-right: 10px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}
+
+.MessageBtnIcon:hover{
+  color: #5384ff;
+}
+
+.MessageBtnArrow:before{
+  content: "\f064";
+}
+
+.MessageBtnSettings:before{
+  content: "\f013";
+}

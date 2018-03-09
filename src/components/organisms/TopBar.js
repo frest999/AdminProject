@@ -5,13 +5,12 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 //components
 import '../atoms/LeftBarBtn.css';
-import Budge from '../atoms/Budge';
 import Avatar from "../atoms/Avatar";
 import ProfileOptions from "../molecules/ProfileOptions";
 import BrandBtn from "../atoms/AddBtn";
 import MessageHeaderIcon from "../atoms/MessageHeaderIcon";
 import LeftNavBar from '../molecules/LeftNavBar';
-
+import Budge from "../atoms/Budge";
 
 export default class TopBar extends React.Component {
 

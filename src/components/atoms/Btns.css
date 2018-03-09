@@ -1,3 +1,9 @@
+.Btn{
+  background-color: transparent;
+  border: none;
+}
+
+
 .brand-btn{
   background-color: #5584ff;
   border: none;
@@ -70,4 +76,14 @@
   .enter-btn:after{
     display: none;
   }
+}
+
+.BtnTaskMenu:before{
+  font-family: FontAwesome;
+  content: "\f142";
+  font-size: 2rem;
+  color: #8492af;
+  position: absolute;
+  right: 30px;
+  top: 30px;
 }

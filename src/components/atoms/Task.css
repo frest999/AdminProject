@@ -1,0 +1,120 @@
+.TaskBlock{
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+
+.TaskBlock:hover{
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  background-color: rgba(228, 238, 229, 0.3);
+}
+
+
+.TaskBlockBox{
+  border-bottom: 1px solid #d4d9e3;
+}
+
+
+.TaskBlockBox:last-child{
+  border-bottom: none;
+}
+
+.TaskWorkflow{
+  width: 365px;
+  max-width: 100%;
+  border: 1px solid #d4d9e3;
+  padding: 25px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.TaskWorkflow:last-child{
+  margin-bottom: 50px;
+}
+
+.TaskWorkflow:hover{
+  -moz-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  background-color: #fff;
+  border: 1px solid #5384ff;
+}
+
+
+.IconTask{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #5384ff;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.TaskDescription{
+  font: 700 1rem 'Roboto', sans-serif;
+  color: #0d172e;
+  margin-bottom: 5px;
+}
+
+.TaskTimeLeft{
+  font-size: .875rem;
+  color: #8492af;
+}
+
+.TaskComplete{
+  font-size: .875rem;
+  color: #00bf1b;
+}
+.TaskComplete:before{
+  font-family: FontAwesome;
+  content: "\f05d";
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.TaskDelay{
+  font-size: .875rem;
+  color: #f83c7b;
+}
+
+.TaskTimeLeft:before{
+  font-family: FontAwesome;
+  content: "\f017";
+  font-size: .875rem;
+  margin-right: 5px;
+}
+
+.dropItemTask{
+  position: absolute;
+  right: 10px;
+  bottom: -95px;
+  background-color: #fff;
+  border: 1px solid #d4d9e3;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  z-index: 9999;
+}
+
+.dropItemTask li{
+  padding: 15px;
+  cursor: pointer;
+}
+
+.dropItemTask li:last-child{
+  border-bottom: none;
+}
+
+.dropItemTask li:hover{
+  -moz-transition: all 2s ease-out;
+  -o-transition: all 2s ease-out;
+  -webkit-transition: all 2s ease-out;
+  background-color: #dfe4ee;
+}

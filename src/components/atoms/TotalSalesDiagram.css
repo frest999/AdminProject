@@ -1,0 +1,43 @@
+.TotalSalesBlock{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ProgressCircleBlock{
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProgressCircle{
+  width: 185px;
+  height: 190px;
+  padding: 0 20px;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.SalesNumber{
+  position: absolute;
+  top: 27%;
+  right: 23%;
+  font: 700 2.75rem 'Roboto', sans-serif;
+}
+
+.SalesDescription{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.SalesPrice{
+  font: 700 2rem 'Roboto', sans-serif;
+  color: #8492af;
+}
+
+.SalesKind{
+  font: normal 1rem 'Roboto', sans-serif;
+  color: #8492af;
+}

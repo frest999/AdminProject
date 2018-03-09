@@ -1,0 +1,16 @@
+.UserSectionHeader{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.UserSectionTitle{
+  font: 700 2rem 'Roboto', sans-serif;
+  color: #0e1a35;
+}
+
+.CountUsers{
+  color: #8492af;
+  margin-left: 5px;
+}
+

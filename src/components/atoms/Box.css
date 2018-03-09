@@ -9,7 +9,7 @@
 }
 
 .BoxHeader h2{
-  font: 700 2.25rem 'Roboto', sans-serif;
+  font: 700 2rem 'Roboto', sans-serif;
   color: #8492af;
 }
 
@@ -20,12 +20,12 @@
 }
 
 .BoxCircleChart{
-  width: 400px;
+  width: 475px;
   max-width: 100%;
 }
 
 .BoxGraphChart{
-  width: 600px;
+  width: 675px;
   max-width: 100%;
 }
 .BoxPosition{
@@ -44,7 +44,51 @@
 }
 
 .ActiveBox{
-  height: 484px;
   width: 480px;
-  margin-bottom: 40px;
+}
+
+.BoxNotification{
+  box-sizing: border-box;
+  width: 380px;
+  max-width: 100%;
+  border: 1px solid #d4d9e3;
+  background-color: #fff;
+}
+
+.BoxNotification header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #d4d9e3;
+  padding: 25px 30px;
+}
+
+.BoxNotification header h3{
+  font: 700 1.125rem 'Roboto', sans-serif;
+  color: #0e1a35;
+}
+
+.MainIconNotification{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5384ff;
+  border-radius: 50%;
+  font: normal 1rem 'Roboto', sans-serif;
+  color: #fff;
+}
+.MainIconNotification--Complitive{
+  background-color: #f83c7b;
+}
+
+.NotificationIconBlock{
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.TotalSales{
+  width: 100%;
 }
