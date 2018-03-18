@@ -1,6 +1,7 @@
 import React from 'react';
 import Drawer from 'material-ui/Drawer';
 import AppBar from 'material-ui/AppBar';
+import './TopBar.css';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 //components

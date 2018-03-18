@@ -2,7 +2,6 @@ const ActiveUserChart = {
   chart: {
     type: 'spline',
     height: '350',
-    width: '620'
 
   },
   title: {

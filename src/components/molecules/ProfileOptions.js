@@ -30,7 +30,7 @@ class ProfileOptions extends React.Component{
       OptionDrop = (
           <ul className="ProfileMenu">
             <li>Settings</li>
-            <li>Contacts</li>
+            <li>Messages</li>
             <li><button className="signOutBtn" onClick={this.SignOut}>Sign out</button></li>
           </ul>
       );

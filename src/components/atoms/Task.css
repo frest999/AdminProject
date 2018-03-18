@@ -15,7 +15,6 @@
   background-color: rgba(228, 238, 229, 0.3);
 }
 
-
 .TaskBlockBox{
   border-bottom: 1px solid #d4d9e3;
 }
@@ -117,4 +116,35 @@
   -o-transition: all 2s ease-out;
   -webkit-transition: all 2s ease-out;
   background-color: #dfe4ee;
+}
+
+
+@media (max-width: 410px) {
+  .IconTask {
+    width: 35px;
+    height: 35px;
+  }
+
+  .TaskDescription {
+    font: 700 .75rem 'Roboto', sans-serif;
+  }
+
+  .TaskDelay, .TaskComplete, .TaskTimeLeft {
+    font-size: .7rem;
+  }
+}
+
+@media (max-width: 410px) {
+  .IconTask {
+    width: 25px;
+    height: 25px;
+  }
+
+  .TaskDescription {
+    font: 700 .5rem 'Roboto', sans-serif;
+  }
+
+  .TaskDelay, .TaskComplete, .TaskTimeLeft {
+    font-size: .45rem;
+  }
 }

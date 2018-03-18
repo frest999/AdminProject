@@ -6,6 +6,12 @@
   padding: 0 80px;
 }
 
+@media (max-width: 410px){
+  .content{
+    padding: 0 30px;
+  }
+}
+
 .margin-bottom-30{
   margin-bottom: 30px;
 }
@@ -25,6 +31,17 @@
 .titlePage{
   color: #0e1a35;
   font: 700 3rem 'Roboto', sans-serif;
+}
+
+@media (max-width: 910px){
+  .titlePage{
+    text-align: center;
+  }
+}
+@media (max-width: 410px){
+  .titlePage{
+    font-size: 2rem;
+  }
 }
 
 .MainStyle{

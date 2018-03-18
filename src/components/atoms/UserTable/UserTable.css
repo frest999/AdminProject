@@ -148,3 +148,10 @@
 .react-bs-table table td{
   overflow: visible!important;
 }
+
+
+@media (max-width: 1205px) {
+  .UserName, .UserPost, .ActivityStatus, .EmailLink,.PhoneNumber{
+    font: 700 .9rem 'Roboto', sans-serif;
+  }
+}

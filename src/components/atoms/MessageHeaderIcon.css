@@ -16,3 +16,10 @@
   -webkit-transition: all .75s ease-out;
   color: #5584ff;
 }
+
+
+@media(max-width: 470px){
+  .MessageHeaderIcon{
+    display: none;
+  }
+}

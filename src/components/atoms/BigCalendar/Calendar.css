@@ -52,3 +52,63 @@
 .rbc-btn-group button:nth-child(5){
   display: none;
 }
+
+
+@media (max-width: 750px) {
+  .rbc-toolbar{
+    flex-direction: column;
+  }
+
+  .rbc-toolbar span{
+    margin-bottom: 20px;
+  }
+}
+
+.mm-popup__box{
+  background-color: #fff;
+  border: 1px solid #d4d9e3;
+  border-left: 5px solid #f83c7b;
+  box-sizing: border-box;
+  width: 300px;
+  padding: 10px 20px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.mm-popup__close{
+  border: none;
+  background-color: transparent;
+}
+
+.mm-popup__close:before{
+  font-family: FontAwesome;
+  content: '\f00d';
+  font-size: 1rem;
+  color: #5384ff;
+  position: absolute;
+  right: 10px;
+}
+
+.mm-popup__box__body{
+  font: 700 1rem 'Roboto', sans-serif;
+  margin-bottom: 20px;
+}
+
+.mm-popup__btn--ok{
+  text-align: right;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid #d4d9e3;
+  padding: 10px;
+  font: 400 .75rem 'Roboto', sans-serif;
+  color: #a8adb7;
+}
+
+.mm-popup__btn--ok:hover{
+  -moz-transition: all .75s ease-out;
+  -o-transition: all .75s ease-out;
+  -webkit-transition: all .75s ease-out;
+  border: 1px solid #f83c7b;
+}

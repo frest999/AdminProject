@@ -3,6 +3,7 @@ import './Calendar.css'
 import BigCalendar from 'react-big-calendar'
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 import moment from 'react-moment';
+import Popup from 'react-popup';
 
 BigCalendar.momentLocalizer(moment);
 
@@ -58,13 +59,17 @@ const events = [
   }
 ];
 
+
+
 class MyCalendar extends React.Component {
   render() {
     return (
         <div className='Calendar'>
+          <Popup/>
             <BigCalendar
                 events={events}
                 views={allViews}
+                onSelectEvent={event => Popup.alert(event.title)}
                 step={60}
                 showMultiDayTimes
                 defaultDate={new Date(2018, 2, 9)}

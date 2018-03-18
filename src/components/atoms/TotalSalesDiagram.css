@@ -41,3 +41,14 @@
   font: normal 1rem 'Roboto', sans-serif;
   color: #8492af;
 }
+
+@media (max-width: 490px){
+  .ProgressCircleBlock{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .TotalSalesBlock{
+    justify-content: center;
+  }
+}

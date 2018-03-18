@@ -43,6 +43,19 @@
 .SelectBlockType:before{
   content: "Type:";
 }
+@media (max-width: 1012px){
+  .SelectBlockType{
+    margin-bottom: 30px;
+  }
+
+}
+
+@media (max-width: 538px){
+  .SelectBlockType, .SelectBlockPeriod{
+    display: none;
+  }
+
+}
 
 .Select-Sort{
   width: 200px;

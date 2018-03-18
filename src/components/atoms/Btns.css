@@ -87,3 +87,16 @@
   right: 30px;
   top: 30px;
 }
+
+@media(max-width: 700px){
+  .brand-btn-header{
+    display: none;
+  }
+}
+
+@media (max-width: 460px) {
+  .BtnTaskMenu:before{
+    font-size: 1.2rem;
+    right: 15px;
+  }
+}
